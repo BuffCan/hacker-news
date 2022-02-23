@@ -15,7 +15,7 @@ function Navigation(){
                    <a href=" "> new |</a>
                 </li>
                 <li>
-                <a href=""> past |</a>
+                <a href=" "> past |</a>
                 </li>
                 <li>
                 <a href=" "> comment |</a>

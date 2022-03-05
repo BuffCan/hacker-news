@@ -14,7 +14,7 @@ function App() {
   console.log(input)
 
   async function loadData(){
-    let url = "http://hn.algolia.com/api/v1/search?query=React&hitsPerPage=30";
+    let url = "https://hn.algolia.com/api/v1/search?query=React&hitsPerPage=30";
     setIsLoading(true);
     setEmptySearch(false);
     axios.get(url)
@@ -31,7 +31,7 @@ function App() {
       setEmptySearch(true);
     } else{
       setEmptySearch(false);
-    let url = "http://hn.algolia.com/api/v1/search?query="+txt+"&hitsPerPage=30";
+    let url = "https://hn.algolia.com/api/v1/search?query="+txt+"&hitsPerPage=30";
     axios.get(url)
       .then(res => {
          const arr = res.data;
